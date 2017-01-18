@@ -3,9 +3,8 @@ Minimal asp core app
 
 To run:
 
-cmd into program folder
+cmd into program folder and:
 
-dotnet restore
-dotnet watch run
+dotnet restore (this will install required dependencies specified in project.json)  
+dotnet watch run (this will start up a file watcher and compile/run the code)
 
-This will start up a file watcher and web server
